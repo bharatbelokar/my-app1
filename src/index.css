@@ -11,3 +11,117 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.icons-edit {
+color: rgb(34, 211, 143);
+padding: 10px;
+font-size: 20px;
+margin: 5px;
+cursor: pointer;
+}
+
+.homecss {
+width: 100vw;
+height: 100vh;
+background-color: bisque;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.firstdiv {
+width: 500px;
+height: 200px;
+background-color: rgb(99, 95, 160);
+text-align: center;
+color: cornsilk;
+padding: 75px;
+}
+
+
+
+.icons-delete {
+    color: red;
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.navContainer{
+display: flex;
+justify-content: end;
+
+}
+
+.links{
+  text-decoration: none;
+  color: #7e7777;
+  margin-left: 20px;
+}
+
+.vote_card_hover {
+  position: absolute;
+  width: 100px;
+  height:100px;
+  transition: .3s ease;
+  background-color: 'red'
+}
+
+.table-heading{
+font-size: 20px;
+margin: auto;
+width: 100%;
+text-align: center;
+background-color: rgb(7, 10, 10);
+padding: 18px;
+}
+
+a:hover {
+  color: #0d1250 !important;
+  font-size: 20px;
+  background-color: beige;
+}
+
+/* login page css */
+
+.login-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid #eaeaea;
+ height: 500px;
+ background-image: url("./images/bg.jpg");
+ background-repeat: no-repeat;
+ background-size:cover;
+ align-content: space-between;
+}
+
+.margin_div{
+  margin:10px ;
+}
+
+.margin_div input{
+  width: 25vw;
+  outline: none;
+  height: 7vh;
+  padding: 10px;
+  border-radius: 10px;
+  border:2px solid #7e7777
+}
+
+.margin_div label{
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  width: 25vw;
+  background-color: rgb(165, 99, 17);
+  font-weight: bold;
+  text-align: center;
+
+}
+
+
+
+
+
